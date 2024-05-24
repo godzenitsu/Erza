@@ -24,14 +24,14 @@ var data = await fek.json();
 > *URL* : ${data.data[i].url}\n`
         }
                    await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗦𝗣𝗢𝗧𝗜𝗙𝗬 𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
 body: "",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (txxt)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }}, caption: (txxt)}, {quoted: message })
     }
     );
 */
@@ -76,14 +76,14 @@ var GHuserInfo = await axios
 𝐄𝐙𝐑𝐀-𝐗𝐃`;
 
         await message.client.sendMessage(message.jid, {image: {url: GhUserPP, mimetype: "image/jpeg" }, contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
 body: "𝙂𝙞𝙩𝙝𝙪𝙗 𝙐𝙨𝙚𝙧 𝙄𝙣𝙛𝙤",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (resText4)},{quoted:message})
+thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }}, caption: (resText4)},{quoted:message})
     }
     );
 
@@ -101,13 +101,13 @@ var {result} = await getJson(`https://levanter.onrender.com/ig?q=${match}`)
 const { name, username, avatar, posts, following, followers, description } =
 			result
 await message.client.sendMessage(message.jid, { image:{url: avatar} ,  mimetype:"image/jpeg", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
 body: "𝙄𝙂 𝙙𝙚𝙩𝙖𝙞𝙡𝙨",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: `\n*INSTAGRAM DETAILS*\n\n> *USERNAME* : ${username}\n> *NAME* : ${name}\n> *BIO* : ${description}\n> *POSTS* : ${posts}\n> *FOLLOWERS* : ${followers}\n> *FOLLOWING* : ${following}\n\n𝐄𝐙𝐑𝐀-𝐗𝐃`}, {quoted: message });
+thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }}, caption: `\n*INSTAGRAM DETAILS*\n\n> *USERNAME* : ${username}\n> *NAME* : ${name}\n> *BIO* : ${description}\n> *POSTS* : ${posts}\n> *FOLLOWERS* : ${followers}\n> *FOLLOWING* : ${following}\n\n𝐄𝐙𝐑𝐀-𝐗𝐃`}, {quoted: message });
     }
     );
