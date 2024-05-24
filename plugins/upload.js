@@ -13,14 +13,14 @@ command(
 match = match || message.reply_message.text
 if (!match)return message.reply(`*_Need a imgur/graph Link_*`)
 return await message.sendFromUrl(match, { contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
 body: ``,
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (X.CAPTION)}, {quoted: message})
+thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }}, caption: (X.CAPTION)}, {quoted: message})
 });
 
 // Zeta-XD
