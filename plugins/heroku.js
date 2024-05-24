@@ -213,9 +213,9 @@ command(
     await git.fetch();
     var commits = await git.log([Config.BRANCH + "..origin/" + Config.BRANCH]);
     if (commits.total === 0) {
-      await message.sendMessage("*_No Updates Available_*");
+      await message.sendMessage("*_No Updates Available For Nezuko_*");
     } else {
-      var availupdate = "*ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀᴠᴀɪʟᴀʙʟᴇ* \n\n";
+      var availupdate = "*𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗙𝗼𝗿 𝗡𝗲𝘇𝘂𝗸𝗼* \n\n";
       commits["all"].map((commit, num) => {
         availupdate += num + 1 + " ⋆ " + (commit.message) + "\n";
       });
