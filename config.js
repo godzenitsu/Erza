@@ -14,7 +14,7 @@ module.exports = {
   ANTILINK_ACTION: process.env.ANTI_LINK || "warn",
   SESSION_ID:process.env.SESSION_ID || "Ezra-XD--7L9USdG0bt8tjq1tF4DOm",
   LANG: process.env.LANG || "EN",
-  HANDLERS: process.env.PREFIX || '^[.]',
+  HANDLERS: process.env.PREFIX || '^[.,!-]',
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
   STICKER_DATA: process.env.STICKER_DATA || "𝗭𝗲𝗻𝗶𝘁𝘀𝘂;𝗻𝗲𝘇𝘂𝗸𝗼",
