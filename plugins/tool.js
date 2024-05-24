@@ -58,16 +58,16 @@ let buff = await m.quoted.download();
 > *Genre* : ${data.genres}          
 > *Release* : ${data.release_date}
 > *YouTube Link* : ${data.youtube}
-> *Spotify Link* : ${data.spotify}\n\n𝐄𝐙𝐑𝐀-𝐗𝐃`
+> *Spotify Link* : ${data.spotify}\n\𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃`
                    await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗙𝗜𝗡𝗗 𝗥𝗘𝗦𝗨𝗟𝗧" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
 body: "",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (zeta)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }}, caption: (zeta)}, {quoted: message })
     }
     );
 
@@ -85,25 +85,25 @@ if (!message.reply_message || (!m.quoted.message.viewOnceMessageV2 && !m.quoted.
     if(m.quoted.message.viewOnceMessageV2Extension){
 const downloadedMedia1 = await downloadMediaMessage(m.quoted.message.viewOnceMessageV2Extension, 'buffer', {}, { reuploadRequest: message.client.updateMediaMessage })
 await message.client.sendMessage(message.jid, { audio :downloadedMedia1 ,  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐗𝐃",
+title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
 body: "𝘼𝙣𝙩𝙞 𝙫𝙞𝙚𝙬𝙊𝙣𝙘𝙚 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡",
 sourceUrl: "",
 mediaUrl: "𝙡",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }} },{ quoted: message })
+thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }} },{ quoted: message })
 } else if(m.quoted.message.viewOnceMessageV2){
 const downloadedMedia = await downloadMediaMessage(m.quoted.message.viewOnceMessageV2, 'buffer', {}, { reuploadRequest: message.client.updateMediaMessage })
 await message.client.sendMessage(message.jid, {image: downloadedMedia, contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
 body: "𝘼𝙣𝙩𝙞 𝙫𝙞𝙚𝙬𝙊𝙣𝙘𝙚 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }} },{ quoted: message })
+thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }} },{ quoted: message })
 }
   }
 );
